@@ -8,8 +8,8 @@ Data modeling is a process used to define and analyze data requirements needed t
 
 ## Links and Resources
 
-- [submission PR]
-- [ci/cd]
+- [submission PR](https://github.com/401-advanced-javascript-Rashid/Lab-Class-04/pull/1)
+- [ci/cd](https://github.com/401-advanced-javascript-Rashid/Lab-Class-04/runs/411742819?check_suite_focus=true)
 
 ## Setup
 
