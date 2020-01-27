@@ -54,6 +54,7 @@ describe('Products Model', () => {
           });
       });
   });
+
   it('can delete() a products', () => {
 
     let obj = { tybe: 'XBOX-ONE', price: 259 };

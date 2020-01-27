@@ -12,7 +12,6 @@ describe('Categories Model', () => {
   });
 
   it('can post() a new category', () => {
-
     let obj = { name: 'Test Category' };
     return categories.create(obj)
       .then(record => {
@@ -24,7 +23,6 @@ describe('Categories Model', () => {
   });
 
   it('can get() a category', () => {
-
     let obj = { name: 'Test Category' };
     return categories.create(obj)
       .then(record => {
@@ -56,7 +54,7 @@ describe('Categories Model', () => {
     let obj = { name: 'Test Category' };
     return categories.create(obj)
       .then(record => {
-        record.name = 'update category';
+        record.name = 'Update Category';
         return categories.update(record._id, record)
           .then(category => {
             return categories.get(category._id)
