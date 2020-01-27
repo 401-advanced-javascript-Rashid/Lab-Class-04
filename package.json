@@ -1,7 +1,7 @@
 {
   "name": "starter-code",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Let's Rock",
   "main": "players-schema.js",
   "scripts": {
     "test": "jest --verbose",
@@ -11,10 +11,24 @@
     "testEnvironment": "node"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rashid S.",
   "license": "ISC",
   "dependencies": {
-    "jest": "^24.8.0",
+    "eslint": "^6.8.0",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "jest": "^24.9.0",
+    "method-override": "^3.0.0",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2",
     "uuid": "^3.3.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-Rashid/Lab-Class-04.git"
+  },
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-Rashid/Lab-Class-04/issues"
+  },
+  "homepage": "https://github.com/401-advanced-javascript-Rashid/Lab-Class-04#readme"
 }
